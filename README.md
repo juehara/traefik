@@ -7,6 +7,10 @@ docker container run -d -p 8080:8080 -p 80:80 \
 -v /var/run/docker.sock:/var/run/docker.sock \
 traefik:latest
 
+## Para visualizar o monitor do Traefik
+Acesse a porta 8080
+http://localhost:8080
+
 ## O Traefik utiliza o nome do container para executar o reverso
 Quando voce executar um container por exemplo:
 
